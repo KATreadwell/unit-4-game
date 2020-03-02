@@ -1,42 +1,42 @@
 body{
     background-image: url("../images/cool-background.png");
     background-size: cover;
-}
-
-body{
     font-family: 'GlacialIndifferenceRegular';
-    font-style: normal;
+    font-weight: bold;
 }
 
 h1{
     color: darkorchid;
-    font-weight: bold;
     padding: 10px;
     text-align: center;
 }
 
 .instructions{
-    color: blueviolet;
+    color: mediumslateblue;
     font-size: 20px;
-    padding: 10px;
+    margin: 20px;
 }
 
 .guessTally{
-    color: mediumslateblue;
-    font-size: 30px;
-    padding: 10px;
-}
-
-.score{
-    color: magenta;
+    color: blueviolet;
     font-size: 25px;
-}
-
-.pic{
-    width: 200px;
-    height: 150px;
+    margin: 20px;
 }
 
 .crystals{
-    flex-direction: row;
+    margin: 20px;
+    width: auto;
+} 
+
+.pic{
+    width: 200px; 
+    height: 150px;
+    margin: 20px; 
 }
+
+.score{
+    margin: 20px;
+    color: blueviolet;
+    font-size: 30px;
+}
+
