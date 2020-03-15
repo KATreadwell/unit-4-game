@@ -27,10 +27,10 @@ $(document).ready(function() {
         $("#lossesNo").text(losses);
         $("#score").text(score);
     }
+
     startNewGame();
     $('.pic').on('click', function(){
         var crystalNo = parseInt($(this).attr("crystalNo"));
-        console.log(typeof crystalNo)
         score += crystalNo;
         if(score === targetScore){
             wins++;
@@ -43,7 +43,6 @@ $(document).ready(function() {
         else {
             $("#score").text(score);
         }
-
     })
 
 })
